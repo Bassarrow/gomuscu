@@ -1,0 +1,62 @@
+body {
+    width: auto;
+    margin: 0 auto;
+    background-color: #6633CC;
+   
+  
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;       /* taille du logo */
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;      /* rend l'image ronde */
+  
+}
+  .icon {
+
+	width: 100px;
+  position: relative;
+  top: 1%;    /* Déplace le texte vers le bas */
+  left: 0px;   /* Déplace le texte vers la droite */
+  margin: 0 auto;
+  border-radius: 90px;
+}
+.title {
+  color: #9f9f9f ;
+  width: 500px;
+position: relative;
+top: 0px;    /* Déplace le texte vers le bas */
+left: 200px;   /* Déplace le texte vers la droite */
+
+}
+.demo{  color: #9f9f9f ;
+  width: 500px;
+position: relative;
+top: -25px;    /* Déplace le texte vers le bas */
+left: 200px;   
+}
+.dev-menu {
+  position: relative;
+    top: 200px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9f9f9f;
+    background:transparent; 
+    border: none; 
+    cursor: pointer;
+  }
+  .parametres {
+  position: relative;
+  top: 200px;
+  left: 290px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #9f9f9f;
+  background:transparent; 
+  border: none;  
+  cursor: pointer;
+}

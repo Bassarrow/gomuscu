@@ -1,0 +1,24 @@
+ 
+<div class="nav-left">
+  <script type="text/javascript">window.navmet.tmp=+new Date();</script>
+  <a href="javascript: void(0)" id="nav-hamburger-menu" role="button" aria-label="Ouvrir le menu Toutes les catégories" aria-expanded="false" data-csa-c-type="widget" data-csa-c-slot-id="HamburgerMenuDesktop" data-csa-c-interaction-events="click" data-csa-c-id="xzusk0-kc3veh-nzr5x2-db11n5">
+    <i class="hm-icon nav-sprite"></i>
+    <span class="hm-icon-label">Toutes</span>
+  </a>
+  
+<script type="text/javascript">
+  var hmenu = document.getElementById("nav-hamburger-menu");
+  hmenu.setAttribute("href", "javascript: void(0)");
+  window.navHamburgerMetricLogger = function() {
+    if (window.ue && window.ue.count) {
+      var metricName = "Nav:Hmenu:IconClickActionPending";
+      window.ue.count(metricName, (ue.count(metricName) || 0) + 1);
+    }
+    window.$Nav && $Nav.declare("navHMenuIconClicked",!0);
+    window.$Nav && $Nav.declare("navHMenuIconClickedNotReadyTimeStamp", Date.now());
+  };
+  hmenu.addEventListener("click", window.navHamburgerMetricLogger);
+  window.$Nav && $Nav.declare('hamburgerMenuIconAvailableOnLoad', false);
+</script>  
+<script type="text/javascript">window.navmet.push({key:'HamburgerMenuIcon',end:+new Date(),begin:window.navmet.tmp});</script>
+</div>
